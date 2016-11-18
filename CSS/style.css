@@ -1,0 +1,75 @@
+/*
+Large: 800px width x 600px height - to be used when the page width is greater than 1500px.
+
+Medium: 600px width x 450px height - to be used when the page width is between 700px and 1500px
+
+Small: 400px width x 300px height - to be used when the page width is less than 700px
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    margin: 0;
+}
+
+ul img {
+    height: auto;
+    border: 0.25rem solid darkgrey;
+    display: block;  
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.container ul {
+    list-style: none;
+    width: auto;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+picture img {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/*Mobile View*/
+@media screen and (max-width: 700px) 
+{
+    li {
+        width: 100%;
+        margin: 0.25rem;
+    }
+}
+
+
+/*Desktop View.*/
+@media screen and (min-width: 600px) and (max-width: 1200px)
+{
+    li {
+        width: 50%;
+        margin: 0.25rem 0;
+        float: left;
+    }
+}
+
+
+/*Large View.*/
+@media screen and (min-width: 1200px){
+    li {
+        width: 25%;
+        float: left;
+        margin: 0.25rem 0;
+    }
+}
