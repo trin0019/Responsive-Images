@@ -9,6 +9,7 @@ Small: 400px width x 300px height - to be used when the page width is less than 
 
 * {
     box-sizing: border-box;
+    
 }
 
 html {
@@ -23,23 +24,20 @@ ul img {
 }
 
 .wrapper {
-    padding: 0;
-    margin: 0;
+    padding: auto 0;
+    margin: auto 0;
+    align-content: center;
 }
 
 .container ul {
     list-style: none;
-    width: auto;
-    margin: 0;
-}
-
-ul{
-    margin: 0;
+    width: auto 0;
+    margin: 0 auto;
 }
 
 picture img {
     max-width: 90%;
-    margin: 0 auto;
+    margin: auto 0;
 }
 
 
